@@ -5,7 +5,7 @@ metadata:
     app: my-apache
   name: my-apache
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: my-apache
